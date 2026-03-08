@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+    
+}
+.albums{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    width:600px;
+    margin:auto;
+}
+
+.album{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.album img{
+    width:250px;
+}
+
+.album a{
+    margin-top:10px;
+}
